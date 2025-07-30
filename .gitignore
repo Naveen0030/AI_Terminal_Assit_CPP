@@ -1,0 +1,289 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+ollama_assistant
+ollama_assistant.exe
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+**/bin/
+**/obj/
+**/.vs/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# Dev-C++
+*.dev
+
+# CLion
+.idea/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directories
+build/
+Build/
+BUILD/
+debug/
+Debug/
+DEBUG/
+release/
+Release/
+RELEASE/
+dist/
+Dist/
+DIST/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+#*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Configuration files (if they contain sensitive data)
+config.ini
+config.json
+.env
+.env.local
+.env.production
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Conan (C++ package manager)
+conanfile.txt.bak
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# vcpkg (Microsoft C++ package manager)
+vcpkg_installed/
+
+# Hunter (C++ package manager)
+_hunter_base/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Core dumps
+core
+core.*
+
+# Memory leak detection
+*.memcheck
+valgrind.log
+
+# Coverage reports
+*.gcno
+*.gcda
+*.gcov
+coverage.info
+coverage/
+lcov.info
+
+# Profiling
+gmon.out
+*.prof
+
+# Documentation generated files
+docs/html/
+docs/latex/
+Doxyfile.bak
+
+# Test results
+test_results/
+test_output/
+*.test
+
+# Dependency directories
+vendor/
+third_party/
+external/
+
+# Build artifacts
+*.map
+*.hex
+*.bin
+*.elf
+
+# Static analysis
+cppcheck.xml
+*.sarif
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+
+# Project specific ignores
+# Compiled executables (your specific binary)
+ollama_assistant.exe
+ollama_assistant
+
+# Dynamic libraries (if you have any)
+libcurl-x64.dll
+
+# Build directories and dependency folders
+curl/
+lib/
+nlohmann/
+
+# Any other compiled binaries or build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE workspace files
+.vscode/
+*.code-workspace
+
+conversation_history.json
+.cache/
